@@ -17,9 +17,10 @@
 		},
 	],
 	// Worker Loader for plugin sandboxing
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
+	// 2026.5 CloudFlare D1 無料プラン内で駆動させるためにコメントアウト（サンドボックス駆動をするためには$5/月課金がいるらしい）
+	// "worker_loaders": [
+	// 	{
+	// 		"binding": "LOADER",
+	// 	},
+	// ],
 }
